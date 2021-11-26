@@ -9,10 +9,16 @@ const seven = document.getElementById("seven");
 const eight = document.getElementById("eight");
 const nine = document.getElementById("nine");
 const display = document.getElementById("display");
+const button = document.querySelector(".button");
 //////////////////////////////////////////////////////////
-one.addEventListener('click', () => {
-    display.innerHTML = "1";
-})
-two.addEventListener('click', () => {
-    display.innerHTML = "2";
-})
+
+let Screenvalue = ' ';
+
+console.log(button);
+
+for (item of button) {
+    item.addEventListener('click', (e) => {
+        buttonText = e.terget.innerText;
+        console.log(buttonText);
+    });
+}
