@@ -26,7 +26,6 @@
 .firstRow {
   width: 100%;
   height: 20vh;
-  border: 1px solid black;
   position: relative;
 }
 .button {
@@ -38,6 +37,7 @@
   display: grid;
   place-items: center;
   font-size: 50px;
+  border-radius: 30px;
 }
 #two {
   position: absolute;
@@ -63,7 +63,28 @@
   position: absolute;
   left: 10%;
 }
-#zero{
-  position:absolute;
-  left:30%;
+#zero {
+  position: absolute;
+  left: 30%;
+}
+#equal {
+  position: absolute;
+  left: 40%;
+  width: 15%;
+}
+#multi {
+  position: absolute;
+  left: 30%;
+}
+#divide {
+  position: absolute;
+  left: 40%;
+}
+#add {
+  position: absolute;
+  left: 30%;
+}
+#percentage {
+  position: absolute;
+  left: 40%;
 }
