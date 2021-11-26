@@ -70,7 +70,6 @@
 #equal {
   position: absolute;
   left: 40%;
-  width: 15%;
 }
 #multi {
   position: absolute;
@@ -87,4 +86,28 @@
 #percentage {
   position: absolute;
   left: 40%;
+}
+#small-b1 {
+  position: absolute;
+  left: 50%;
+}
+#small-b2 {
+  position: absolute;
+  left: 60%;
+}
+#curl-b1 {
+  position: absolute;
+  left: 50%;
+}
+#curl-b2 {
+  position: absolute;
+  left: 60%;
+}
+#big-b1 {
+  position: absolute;
+  left: 50%;
+}
+#big-b2 {
+  position: absolute;
+  left: 60%;
 }
